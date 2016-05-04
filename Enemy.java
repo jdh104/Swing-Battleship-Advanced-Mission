@@ -129,6 +129,7 @@ public final class Enemy {
 				}
 				while (!game.setSelectedShipButton(Game.getRandomShipType(generator)));
 				nextWeapon = game.getSelectedWeapon();
+				nextOrientation = Game.getRandomOrientation(generator);
 			} else if (level == Game.NORMAL){
 				boolean usingMethodology = false;
 				
